@@ -1,55 +1,148 @@
-
-ul {
-  list-style-type: none;
+/* Body styles */
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+h1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD27bf_0sRl9ShcHkdZpCE_elyq2gh9vFnrQ&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  color: #080808; /* Set the text color to ensure readability */
+  text-align: center;
+  padding: 40px;
+}
+body {
+  background-image: url('https://img.freepik.com/free-vector/nfc-technology-concept-illustration_114360-14387.jpg?w=740&t=st=1687933281~exp=1687933881~hmac=39e5490747e1b8340b57e1421744ad4c2208ad646939132d8daf331437e764b7');
+  background-size: contain;
+  background-position: center;
   margin: 0;
   padding: 0;
 }
+h2 {
+  background-color: rgba(151, 191, 128, 0.721); /* Replace with your desired color values and transparency */
+  color: black;
+  padding: 10px;
+}
 
-li {
-  display: inline;
-}
-*{
-    text-decoration: none;
-    margin:0px;
-    padding:0;
-    box-sizing: border-box;
-}
-h1{
-    font-size: 60px;
-    background-color:rgb(17,143,158);
-    color:rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 50px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
   }
-  nav{
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #333;
+  }
+  
+  /* Navigation styles */
+  nav {
     background-color: #333;
-    overflow:hidden;
+    padding: 10px;
   }
-  nav a{
-    color: rgb(255, 255, 255);
-    padding: 14px 20px;
-    float: left;
-
-  }
-  a :hover{
-    color: rgb(138, 135, 135);
-  }
-  .MAIN_quote {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    color: rgb(17,143,158);
-    text-align: center;
-    background-color: black;
-    padding: 25px;
-  }
-
-  footer{
-    background-color: rgb(111, 111, 111);
-    overflow: hidden;
-  }
-  footer a{
-    color: rgb(255, 255, 255);
-    padding: 40px 40px;
-    float: left;
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Main quote styles */
+  .main-quote {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-quote pre {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form styles */
+  form {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .text-field {
+    margin-bottom: 50px;
+  }
+  
+  .text-field input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .text-field input[type="text"],
+  .text-field input[type="pincode"] {
+    margin-bottom: 40px;
+  }
+  
+  .text-field input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .text-field input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  /* Optional: Add animation effect */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .main-quote {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
